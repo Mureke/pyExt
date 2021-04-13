@@ -1,0 +1,11 @@
+[package]
+name = "pyext-myrustlib"
+version = "0.1.0"
+authors = ["Markus Suomalainen <markus.suomalainen@gmail.com>"]
+
+[lib]
+name = "myrustlib"
+crate-type = ["dylib"]
+
+[dependencies]
+cpython = "0.5.2"
